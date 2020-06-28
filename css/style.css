@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Roboto:wght@300;400;500;700&display=swap');
+/* CSS Document */
+
+header{
+background-color: transparent;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 999999;
+}
+
+section{
+padding-top: 10%;
+}
+
+body {
+background-color: #000;
+}
+
+
+#welcome h1{
+	margin-top: 5px;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	width: 200%;
+	text-align:left;
+	font-size: 60px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+#welcome p{
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	width: 180%;
+	text-align:left;
+    font-size: 20px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+
+#welcome img{
+	width: 200%;
+	opacity: 50%;
+	  position: absolute;
+  left: 80%;
+  bottom: 40px;
+	filter: grayscale(100%);
+	border-radius: 100%;
+
+}
+
+#welcome img:hover{
+  transform: scaleX(-1);
+}
+
+#welcome{
+	background-color: #2C2B32;
+	text-align: center;
+}
+
+section{
+padding: 5%;
+}
+
+#about{
+background-color: #000000;
+}
+
+
+#about h1{
+	margin-top: 5px;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	width: 200%;
+	text-align:left;
+	font-size: 60px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+#about p{
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	width: 100%;
+	text-align:left;
+    font-size: 20px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+
+.titulo{
+margin-top: 5px;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	width: 200%;
+	text-align:left;
+	font-size: 60px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+
+.subtitulo{
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	width: 100%;
+	text-align:left;
+    font-size: 20px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+
+#work{
+	background-color: #2C2B32;
+	text-align: center;
+}
+
+#work img{
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+filter: grayscale(1);
+	transition: all 0.3s ease-in-out;
+}
+
+#work img:hover{
+box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+filter: grayscale(0);
+	transform:scale(1.5);
+	transition: all 0.3s ease-in-out;
+}
+
+#servicios{
+	background-color: #2C2B32;
+	text-align: center;
+}
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	position: relative;
+	line-height: 100px;
+	/*border: 1px solid #ddd;*/
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px 0px #000;
+	font-size: 40px;
+	color: #fff;
+}
+.circulo:hover{
+box-shadow: 0px 0px 5px 0px #ddd;
+	position:relative;
+}
+
+#servicios h2{
+margin-top: 5px;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	width: 200%;
+	text-align: left;
+	position:relative;
+	font-size: 30px;
+	color: #fff;
+	margin: 0px 0px 10px 0px;
+}
+
+#servicios h3{
+	position:relative;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+
+}
+
+	
